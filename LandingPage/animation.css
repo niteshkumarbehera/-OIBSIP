@@ -1,0 +1,24 @@
+@keyframes nitesh{
+    0.1%{background-image: url('./image/darziling.jpg');}
+    10%{background-image: url('./image/goa\ beach.jpg');}
+    20%{background-image: url('./image/jagannath.jpg');}
+    30%{background-image: url('./image/kedarnath.jpg');}
+    40%{background-image: url('./image/manali.jpg');}
+    50%{background-image: url('./image/munnar.jpg');}
+    60%{background-image: url('./image/ooty.jpg');}
+    70%{background-image: url('./image/Shimla.jpg');}
+    80%{background-image: url('./image/vizag.jpg');}
+    100%{background-image: url('./image/manali1.jpg');}
+}
+@keyframes text{
+    0.1%{content: "Darziling";}
+    10%{content: "Goa Beach";}
+    20%{content: "Jagannath Temple";}
+    30%{content: "Kedarnath";}
+    40%{content: "Manali";}
+    50%{content: "Munnar";}
+    60%{content: "Ooty Hill Station";}
+    70%{content: "Shimla Hill Station";}
+    80%{content: "Vizag";}
+    100%{content: "KULLU VALLEY";}
+}
