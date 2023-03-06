@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: papayawhip;
+    margin: 0;
+    text-align: center;
+    background: black;
+    margin: 16px 0px;
+}
+body h1 p li figure .img-caption{
+    margin: 16px;
+}
+.heading-container h1{
+    font-size: 2em;
+    margin: 2em 2em 0em 2em;
+}
+.heading-container p{
+    margin: 16px;
+    font-family: 'Dancing Script', cursive;
+}
+.img-caption{
+    margin: 16px 16px 50px 16px;
+}
+.section-2{
+    background: whitesmoke;
+    display: flex;
+    color: black;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1em;
+    font-family: 'Dancing Script', cursive;
+}
+.slogan p:nth-child(1){
+    font-size: 3em;
+}
+.tribute-ul{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+.tribute-ul li{
+    margin: 16px 0px;
+}
+blockquote p{
+    font-style: italic;
+}
