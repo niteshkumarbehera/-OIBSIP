@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator By Nitesh</title>
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <h1>MATHMATICES CALCULATOR</h1>
+    <div class="container">
+        <div class="calculator-container">
+            <form action="" name="form">
+                <div class="display-number-container">
+                    <div class="display-container">
+                        <input type="text" id="display" class="display" name="display">
+                    </div>
+                    <div class="number-container">
+                        <div class="number">
+                            <div class="first-line line reset">
+                                <input type="reset" class="seven button" id="seven" value="AC" onclick="form.display.value += ' ' ">
+                            </div>
+                            <div class="first-line line">
+                                <input type="button" class="seven button" id="seven" value="7" onclick="form.display.value += '7' ">
+                                <input type="button" class="eight button" id="eight" value="8" onclick="form.display.value += '8' " >
+                                <input type="button" class="nine button" id="nine" value="9" onclick="form.display.value += '9' " >
+                                <input type="button" class="divide button" id="divide" value="/" onclick="form.display.value += '/' "  >
+                            </div>
+                            <div class="second-line line">
+                                <input type="button" class="four button" id="four" value="4" onclick="form.display.value += '4' " >
+                                <input type="button" class="five button" id="five" value="5" onclick="form.display.value += '5' " >
+                                <input type="button" class="six button" id="six" value="6" onclick="form.display.value += '6' " >
+                                <input type="button" class="multiple button" id="multiple" value="*" onclick="form.display.value += '*' " >
+                            </div>
+                            <div class="third-line line">
+                                <input type="button" class="one button" id="one" value="1" onclick="form.display.value += '1' " >
+                                <input type="button" class="two button" id="two" value="2" onclick="form.display.value += '2' " >
+                                <input type="button" class="three button" id="three" value="3" onclick="form.display.value += '3' " >
+                                <input type="button" class="substract button" id="substract" value="-" onclick="form.display.value += '-' " >
+
+                            </div>
+                            <div class="fourth-line line">
+                                <input type="button" class="zero button" id="zero" value="0" onclick="form.display.value += '0' " >
+                                <input type="button" class="dot button" id="dot" value="." onclick="form.display.value += '.' " >
+                                <input type="button" class="addition button" id="addition" value="+" onclick="form.display.value += '+' " >
+                                <input type="button" class="equal button" id="equal" value="="onclick = "form.display.value = eval(form.display.value) "  >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
